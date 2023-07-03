@@ -9,3 +9,9 @@ class DataIngestionArtifacts:
 class DataTransformationArtifacts:
     transformed_data_file_path:str
     transformed_output_file_path:str
+
+
+@dataclass
+class PrepareBaseModelArtifacts:
+    base_model_file_path:str
+    updated_model_file_path:str
